@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+
+<!-- PTN.400585 suki.wtf 88321312 -->
+
+<!--
+	Identity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>suki.wtf</title>
+		<meta charset="utf-8" />
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-WKPZZ7S');</script>
+		<!-- End Google Tag Manager -->
+
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" type="image/png" sizes="192x192"  href="./android-icon-192x192.png">
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WKPZZ7S"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
+							<h1>Suki</h1>
+							<p>backend developer / devops</p>
+						</header>
+						<footer>
+							<ul class="icons">
+								<!-- <li><a href="https://www.linkedin.com/in/boukal/" class="fa-linkedin">LinkedIn</a></li> -->
+								<li><a href="https://github.com/SukiCZ" class="fa-github">GitHub</a></li>
+								<li><a href="http://steamcommunity.com/id/SukiCZ/" class="fa-steam">GitHub</a></li>
+								<li><a href="https://twitter.com/tenstoucepici/" class="fa-twitter">Twitter</a></li>
+								<li><a onclick="display_form('wallets')", class="fa-btc">Wallets</a></li>
+								<li><a onclick="display_form('contactMe')", class="fa-envelope">Contact me</a></li>
+							</ul>
+							<div id="wallets", style="display:none;">
+								<hr>
+								<div>
+									<p><strong>ETH</strong><img class="wallet_icon" src="images/eth.png"></p>
+									<p class="address">0x1198c255dd22ae4c0659b24cc57799cce6e3a182</p>
+								</div>
+							</div>
+							<div id="contactMe", style="display:none;">
+								<hr>
+								<form action="https://formspree.io/f/xzbkwjza", method="POST">
+									<input type="email" name="_replyto", placeholder="Email to reply to/blank">
+									<textarea name="message", placeholder="Your message", required></textarea>
+									<input type="submit" value="Send">
+								</form>
+							</div>
+						</footer>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; Jane Doe</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+				function display_form(id){
+					var c = document.getElementById(id);
+					if (c.style.display === "none") {
+						c.style.display = "block";
+					} else {
+						c.style.display = "none";
+					}
+				}
+			</script>
+
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-93004120-1"></script>
+			<script>
+			  window.dataLayer = window.dataLayer || [];
+			  function gtag(){dataLayer.push(arguments);}
+			  gtag('js', new Date());
+
+			  gtag('config', 'UA-93004120-1');
+			</script>
+			<script src="assets/js/modernizr.js"></script>
+		<!-- /Scripts -->
+	</body>
+</html>

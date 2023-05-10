@@ -1,2 +1,0 @@
-# SukiCZ
-Suki index
